@@ -1,2 +1,4 @@
 .venv/
 tests/samples/
+.pytest_cache/
+__pycache__/
