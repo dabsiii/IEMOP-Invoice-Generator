@@ -5,6 +5,7 @@ from src.data.fta_data.allocation.allocation_interface import IAllocation
 
 
 class IFTAData(ABC):
+
     @abstractmethod
     def get_stl_ids(self) -> List[str]: ...
 
